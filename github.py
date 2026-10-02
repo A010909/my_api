@@ -106,8 +106,9 @@ class GithubAPI:
         return repo_data
 
 
-# just for testing purpose - might delete it later
-if __name__ == "__main__":
-    my_api = GithubAPI()
-    print(my_api.git_info())
-    print(my_api.git_repo())
+# uncomment this if you want to test
+# if __name__ == "__main__":
+#     my_api = GithubAPI()
+#     print(my_api.git_info())
+#     print(my_api.git_commits())
+#     print(my_api.git_repo())
