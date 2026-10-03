@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 import requests
 
-
 class GithubAPI:
     # constructor
     def __init__(self):
@@ -23,7 +22,7 @@ class GithubAPI:
             response.raise_for_status()
             return response.json()
 
-        # handling exceptions
+        # handling exceptions (ek kachori do samosa - in API ka kya bharosa)
         except requests.exceptions.Timeout:
             return -1
 

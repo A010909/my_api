@@ -88,6 +88,8 @@ class lastfmAPI:
         
         return data
     
+    # holyyyy fuckkk, what the hell did i write dayyyymmmmmmm
+    # its a fuckin self healing code. 
     def get_vibe(self):
 
         payload = {
